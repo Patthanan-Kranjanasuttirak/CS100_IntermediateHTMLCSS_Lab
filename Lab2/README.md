@@ -54,7 +54,7 @@ nav ul li {
    - Make the sidebar extend to the full height of the viewport.
    - Add padding to the top of the navigation content.
 ```css
-```nav {
+nav {
     background-color: #ffa41b;
     text-align: center;
     float: left ;
@@ -63,22 +63,30 @@ nav ul li {
     padding-top: 30px ;
 
 }
+```
 
 ---
 ### Step 3: Adjust the Main Content Width
 - Modify the CSS `main` section to ensure the main content takes up the remaining width of the page and floats to the right of the sidebar.
 ```css
-```main {
+main {
     padding: 20px;
     width: 77% ;
     float: right;
 }
+```
 
 
 ---
 ### Step 4: Styling the Footer
 - Since the `nav` and `main` sections are floated, ensure the footer stays below them by clearing the floats by adding relevant CSS styles to achieve this.
 ```css
+footer {
+    background-color: #ffe066;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
 ```
 
 ---
