@@ -9,29 +9,34 @@ body{
 
 header,nav,div,article,footer {
     padding: 10px;
-    background-color: yellow ;
-    border : 1px  solid gray;
+    background-color: rgb(24, 23, 23) ;
     text-align: center;
 }
 header{
     width: 100%;
+    background-color: #3a3a3a ;
 }
 footer{
     width: 100%;
     clear: both;
+    background-color: #242222 ;
 }
 nav{
     width: 20%;
     height: 200px;
     float: left;
+    background-color: #242222 ;
+  
 }
 article{
     width: 60%;
     height: 200px;
     float: left;
+    background-color: #363434 ;
 }
 div{
     width: 20%;
     height: 200px;
     float: left;
+    background-color: #242222 ;
 } 
